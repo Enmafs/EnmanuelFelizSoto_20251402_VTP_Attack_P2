@@ -21,6 +21,12 @@ Usar Yersinia para inyectar VTP Summary Advertisements con revisión superior, l
 | SW1         | VTP Server (objetivo)    | e0/1-3   | —              |
 | Ubuntu MATE | Host atacante (Yersinia) | ens3     | 14.2.0.X/27    |
 
+## Estado del equipo antes de ejecutar el ataque
+<img width="1345" height="555" alt="Captura de pantalla 2026-06-12 121246" src="https://github.com/user-attachments/assets/84984977-7210-4ea9-867e-4d62eba7bb91" />
+
+## Estado del equipo después de ejecutar el ataque
+<img width="1277" height="268" alt="Captura de pantalla 2026-06-12 121438" src="https://github.com/user-attachments/assets/64416322-753f-48be-bbb9-776e2a27e37b" />
+
 **Entorno:** PNetLab — Cisco IOL + Ubuntu MATE | **Base IP:** Matrícula 20251402 → 14.2.0.0
 
 ## ⚙️ Requisitos
