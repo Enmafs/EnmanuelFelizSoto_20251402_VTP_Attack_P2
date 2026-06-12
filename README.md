@@ -13,13 +13,13 @@ Demostrar un ataque VTP inyectando anuncios con número de revisión alto para a
 Usar Yersinia para inyectar VTP Summary Advertisements con revisión superior, logrando agregar o borrar VLANs en toda la red desde un punto no autorizado.
 
 ## 🗺️ Topología
-![Topología](https://raw.githubusercontent.com/Enmafs/EnmanuelFelizSoto_20251402_VTP_Attack_P2/main/topologia.png)
+<img width="1430" height="477" alt="Captura de pantalla 2026-06-12 014740" src="https://github.com/user-attachments/assets/1a439753-426d-4e1f-b924-d3cf18112348" />
 
-| Dispositivo | Rol | Interfaz |
-|-------------|-----|----------|
-| SW1 | VTP Server | e0/2-3 |
-| SW2 | VTP Client (objetivo) | e0/0-1 |
-| Ubuntu MATE | Host atacante (Yersinia) | ens3 |
+| Dispositivo | Rol                      | Interfaz | IP            |
+| ----------- | ------------------------ | -------- | ------------- |
+| R1          | GTW RED                  | e0/0     | —              |
+| SW1         | VTP Server (objetivo)    | e0/1-3   | —              |
+| Ubuntu MATE | Host atacante (Yersinia) | ens3     | 14.2.0.X/27    |
 
 **Entorno:** PNetLab — Cisco IOL + Ubuntu MATE | **Base IP:** Matrícula 20251402 → 14.2.0.0
 
